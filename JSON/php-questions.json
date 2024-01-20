@@ -1,0 +1,43 @@
+[
+    {
+        "category": "PHP",
+        "question": "What does PHP stand for?",
+        "answer_1": "Personal Hypertext Processor",
+        "answer_2": "Private Home Page",
+        "answer_3": "Personal Home Pge",
+        "answer_4": "PHP: Hypertext Preprocessor",
+        "right_answer": "PHP: Hypertext Preprocessor"
+    },
+    {
+        "question": "PHP server scripts are surrounded by delimiters, which?",
+        "answer_1": "<&>...</&>",
+        "answer_2": "<?php...?>",
+        "answer_3": "<script>...</script>",
+        "answer_4": "<?php>...</?>",
+        "right_answer": "<?php...?>"
+    },
+    {
+        "question": "How do you write 'Hello World' in PHP",
+        "answer_1": "Hello World;",
+        "answer_2": "echo 'Hello World';",
+        "answer_3": "Document.Write('Hello World');",
+        "answer_4": "Print_r('Hello World')",
+        "right_answer": "echo 'Hello World';"
+    },
+    {
+        "question": "All variables in PHP start with which symbol?",
+        "answer_1": "!",
+        "answer_2": "&",
+        "answer_3": "$",
+        "answer_4": "?",
+        "right_answer": "$"
+    },
+    {
+        "question": "What is the correct way to end a PHP statement?",
+        "answer_1": "</php>",
+        "answer_2": ".",
+        "answer_3": "New Line",
+        "answer_4": ";",
+        "right_answer": ";"
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "category": "JavaScript",
+        "question": "Inside which HTML element do we put the JavaScript?",
+        "answer_1": "<js>",
+        "answer_2": "<scripting>",
+        "answer_3": "<script>",
+        "answer_4": "<javascript>",
+        "right_answer": "<script>"
+    },
+    {
+        "question": "Where is the correct place to insert a JavaScript?",
+        "answer_1": "The <body> section",
+        "answer_2": "<body> and <head> Right",
+        "answer_3": "<footer>",
+        "answer_4": "The <head> Section",
+        "right_answer": "The <head> Section"
+    },
+    {
+        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        "answer_1": "<scriot herf='xxx.js'>",
+        "answer_2": "<scriot file='xxx.js'>",
+        "answer_3": "<scriot src='xxx.js'>",
+        "answer_4": "<scriot name='xxx.js'>",
+        "right_answer": "<scriot src='xxx.js'>"
+    },
+    {
+        "question": "How do you write 'Hello World' in an alert box?",
+        "answer_1": "msgBox('hellow World')",
+        "answer_2": "alert('hello World')",
+        "answer_3": "alertBox('hello World')",
+        "answer_4": "msg('Hello World')",
+        "right_answer": "alert('hello World')"
+    },
+    {
+        "question": "How to write an IF statement in JavaScript?",
+        "answer_1": "if i = 5",
+        "answer_2": "if i = 5 then",
+        "answer_3": "if(i == 5)",
+        "answer_4": "if i == 5 then",
+        "right_answer": "if (i == 5)"
+    }
+]

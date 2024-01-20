@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Prompt";
+    font-weight: 500;
+}
+
+*:focus {
+    outline: none;
+}
+
+/* Start Game Style */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container {
+    background-color: #eeee;
+    width: 800px;
+    max-width: 700px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+/* Game Info */
+.game-container .game-info {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+.game-container .game-info .category {
+    flex: 1;
+}
+
+.game-container .game-info .category span , 
+.game-container .game-info .questions-count span {
+    color: #1797c2;
+}
+
+.game-container .game-info .questions-count {
+    flex: 1;
+    text-align: right;   
+}
+
+/* Question Area */
+.game-container .question-area {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Answers Area */
+.game-container .answers-area {
+    background-color: white;
+    padding: 10px;
+}
+
+.game-container .answers-area .asnwers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.game-container .answers-area .asnwers .answer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #e7e6e6;
+    padding: 10px;
+    transition: .2s ease-out;
+    position: relative;
+}
+
+.game-container .answers-area .asnwers .answer::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #5e5e5e70;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .3s;
+}
+
+.game-container .answers-area .asnwers .answer:hover::after {
+    animation: progress .5s linear forwards;
+}
+
+.game-container .answers-area .asnwers .answer:hover {
+    background-color: #cfcfcf;
+}
+
+.game-container .answers-area .asnwers .answer label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Check Answer Btn */
+.game-container .btns {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.game-container .btns button {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+}
+
+.game-container .btns .prev {
+    background-color: #B31312;
+}
+
+.game-container .btn-submit {
+    background-color: #0766AD;
+}
+
+/* Footer Style */
+.game-container .footer {
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+}
+
+.game-container .footer .bullets .spans {
+    display: flex;
+    gap: 5px;
+    flex: 1;
+}
+
+.game-container .footer .bullets .spans span {
+    width: 18px;
+    height: 18px;
+    background-color: #cccaca;
+    border-radius: 50%;
+}
+
+.game-container .footer .bullets .spans span.active {
+    background-color: #362FD9;
+}
+
+.game-container .footer .count-down {
+    flex: 1;
+    text-align: right;
+}
+
+/* KeyFrames */
+@keyframes progress {
+    0%{
+        width: 0%;
+    }
+    100%{ 
+        width: 100%;
+    }
+}

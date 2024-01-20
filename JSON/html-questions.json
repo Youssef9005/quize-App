@@ -1,0 +1,91 @@
+[
+    {
+        "category": "HTML",
+        "question": "What does HTML stand for?",
+        "answer_1": "Hyper Text Markup Language",
+        "answer_2": "Hyperlinks and Text Markup Language",
+        "answer_3": "Home Tool Markup Language",
+        "answer_4": "Home Text Markup Language",
+        "right_answer": "Hyper Text Markup Language"
+    }, 
+    {
+        "question": "Who is making the Web standards?",
+        "answer_1": "Google",
+        "answer_2": "The World Wide Web Consortium",
+        "answer_3": "Microsoft",
+        "answer_4": "Mozila",
+        "right_answer": "The World Wide Web Consortium"
+    },
+    {
+        "question": "Choose the correct HTML element for the largest heading:",
+        "answer_1": "<h1>",
+        "answer_2": "<heading>",
+        "answer_3": "<head>",
+        "answer_4": "<h6>",
+        "right_answer": "<h1>"
+    },
+    {
+        "question": "What is the correct HTML element for inserting a line break?",
+        "answer_1": "<break>",
+        "answer_2": "<br>",
+        "answer_3": "<ib>",
+        "answer_4": "<hr>",
+        "right_answer": "<br>"
+    }, 
+    {
+        "question": "What is the correct HTML for adding a background color?",
+        "answer_1": "<background>yellow</background>",
+        "answer_2": "<body bg='yellow'>",
+        "answer_3": "<body color='yellow'>",
+        "answer_4": "<body style='background-colro:yellow;'>",
+        "right_answer": "<body style='background-colro:yellow;'>"
+    },
+    {
+        "question": "How is document type initialized in HTML5.?",
+        "answer_1": "<!DOCTYPE HTML>",
+        "answer_2": "</DOCTYPE>",
+        "answer_3": "</DOCTYPE HTML>",
+        "answer_4": "</DOCTYPE html>",
+        "right_answer": "<!DOCTYPE HTML>"
+    }, 
+    {
+        "question": "Which of the following HTML Elements is used for making any text bold ?",
+        "answer_1": "<p>",
+        "answer_2": "<i>",
+        "answer_3": "<li>",
+        "answer_4": "<b>",
+        "right_answer":"<b>"
+    },
+    {
+        "question": "Which of the following HTML element is used for creating an unordered list?",
+        "answer_1": "<ui>",
+        "answer_2": "<em>",
+        "answer_3": "<i>",
+        "answer_4": "<ul>",
+        "right_answer": "<ul>"
+    },
+    {
+        "question": "Which of the following HTML element is used for creating an ordered list?",
+        "answer_1": "<li>",
+        "answer_2": "<al>",
+        "answer_3": "<ol>",
+        "answer_4": "<sub>",
+        "right_answer": "<ol>"
+    },
+    {
+        "question": "Which of the following characters indicate closing of a tag?",
+        "answer_1": ".",
+        "answer_2": "|",
+        "answer_3": "!",
+        "answer_4": "/",
+        "right_answer": "/"
+    },
+    {
+        "question": "What is the font-size of the h1 heading tag?",
+        "answer_1": "3.5em",
+        "answer_2": "1.5em",
+        "answer_3": "4.5em",
+        "answer_4": "2 em",
+        "right_answer": "2em"
+    }
+]
