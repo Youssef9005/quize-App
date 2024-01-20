@@ -80,7 +80,8 @@ function getQuestions() {
 
                 saveAnswer(currentIndex);
                 checkAnswer(theRightAns);
-
+                score++;
+                
                 currentIndex++;
                 activeBullets();
                 questionsArea.innerHTML = "";
