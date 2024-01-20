@@ -15,7 +15,6 @@ function suppressJSError() {
 
 window.onerror = suppressJSError;
 
-
 let currentIndex = 0;
 let score = 0;
 let totalSeconds = 0;
@@ -95,6 +94,7 @@ function getQuestions() {
             btnPrev.onclick = function () {
                 if (!currentIndex <= 0) {
                     currentIndex--;
+                } else if (!score <=0) {
                     score--;
                 }
 
