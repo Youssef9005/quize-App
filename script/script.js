@@ -94,6 +94,7 @@ function getQuestions() {
             btnPrev.onclick = function () {
                 if (!currentIndex <= 0) {
                     currentIndex--;
+                    score--;
                 }
 
                 disableBullets();
@@ -208,7 +209,7 @@ function checkAnswer(rigthAnswer) {
 }
 
 function showResult(count, rAnswer, time) {
-    if (currentIndex == count && rAnswer <= count) {
+    if (currentIndex == count) {
         Swal.fire({
             title: "Good job!",
             text: `You Get ${rAnswer} From ${count - 1}`,
