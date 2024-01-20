@@ -208,7 +208,7 @@ function checkAnswer(rigthAnswer) {
 }
 
 function showResult(count, rAnswer, time) {
-    if (currentIndex == count) {
+    if (currentIndex == count && rAnswer <= count) {
         Swal.fire({
             title: "Good job!",
             text: `You Get ${rAnswer} From ${count - 1}`,
